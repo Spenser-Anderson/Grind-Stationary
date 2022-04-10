@@ -1,0 +1,79 @@
+/* 
+#F4BBBB
+#97DBAE
+
+
+#FEE3EC
+#F9C5D5
+#F999B7
+#F2789F 
+*/
+
+body {
+    background-color:#F4BBBB ;
+}
+
+.intro {
+    padding: 25px 0px;
+    background-color:#fff;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.letMeKnow {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+.letMeKnow button {
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    color: #000;
+
+}
+
+.btn-pink {
+    background-color: #F2789F;
+}
+
+.border-pink {
+    background-color: #FFF;
+    border-color: #F2789F;
+}
+
+.btn-outline-pink{
+    border-color: #F2789F;
+}
+
+.bg-pink {
+    background-color: #F2789F;
+}
+
+.btn-pink:hover, 
+.btn-outline-pink:hover {
+    background-color: #FFF;
+    color:#F2789F;
+    border-color:#F2789F;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+}
